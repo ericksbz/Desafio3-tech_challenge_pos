@@ -67,17 +67,6 @@ em `docs/arquitetura_aws_state_of_data.drawio` — abra em
 5. Rode as queries de `sql/queries_athena.sql` para obter as respostas às 7
    perguntas de negócio do desafio.
 
-## Bug encontrado e corrigido durante a execução
-
-Na primeira execução no Glue, a tabela `q4_linguagens_por_ano` saiu errada:
-todas as linguagens apareciam com a mesma contagem (~2096, igual ao total de
-respondentes de 2025). Causa: as colunas de linguagem são *dummies*
-(`0`/`1`/nulo), e o código original verificava apenas `isNotNull()` — o que é
-verdadeiro tanto para quem **não** usa a linguagem (`0`) quanto para quem usa
-(`1`). Corrigido para checar explicitamente `== 1`
-(`pipeline_bronze_silver_gold.py`, função `extrai_linguagens`). Após a
-correção, os números bateram exatamente com a validação feita em Pandas
-(`analise/analise_eda_pandas.py`).
 
 ## Principais insights (ver material executivo para detalhes)
 
