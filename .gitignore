@@ -1,0 +1,11 @@
+# Dados brutos do Kaggle (não versionar — pesados e de terceiros)
+*.csv.raw
+raw/
+
+# Ambiente
+.venv/
+__pycache__/
+.DS_Store
+
+# AWS
+.aws-sam/

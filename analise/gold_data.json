@@ -1,0 +1,200 @@
+{
+  "q1_top_cargos": {
+    "labels": [
+      "Desenvolvedor/ Engenheiro de Software/ Analista de Sistemas",
+      "Analytics Engineer",
+      "Analista de Negócios/Business Analyst",
+      "Outra Opção",
+      "Analista de BI/BI Analyst",
+      "Engenheiro de Dados/Data Engineer/Data Architect",
+      "Cientista de Dados/Data Scientist",
+      "Analista de Dados/Data Analyst"
+    ],
+    "values": [
+      308,
+      417,
+      419,
+      595,
+      763,
+      1201,
+      1286,
+      1479
+    ]
+  },
+  "q1_respondentes_por_ano": {
+    "labels": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "values": [
+      5293,
+      5217,
+      3495
+    ]
+  },
+  "q2_senioridade_2025": {
+    "labels": [
+      "Júnior",
+      "Pleno",
+      "Sênior"
+    ],
+    "values": [
+      518,
+      776,
+      858
+    ]
+  },
+  "q3_genero_por_ano": {
+    "anos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": {
+      "Masculino": [
+        71.4,
+        71.2,
+        74.3
+      ],
+      "Feminino": [
+        27.7,
+        28.0,
+        24.9
+      ],
+      "Prefiro não informar": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "Outros": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  },
+  "q4_linguagens_2025": {
+    "labels": [
+      "Python",
+      "SQL",
+      "R",
+      "Scala",
+      "C/C++/C#",
+      "Rust",
+      "Julia",
+      "DAX"
+    ],
+    "values": [
+      1929,
+      1764,
+      328,
+      70,
+      49,
+      35,
+      18,
+      8
+    ]
+  },
+  "q5_ia_por_ano": {
+    "anos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": {
+      "Usa - empresa paga": [
+        8.5,
+        21.7,
+        41.9
+      ],
+      "Usa - paga do bolso": [
+        8.9,
+        16.9,
+        22.6
+      ],
+      "Usa - versão gratuita": [
+        48.8,
+        36.2,
+        20.6
+      ],
+      "Usa - copilot/código": [
+        11.3,
+        17.6,
+        12.4
+      ],
+      "Não usa IA": [
+        22.4,
+        7.5,
+        2.4
+      ]
+    }
+  },
+  "q5_taxa_adocao_ia": {
+    "anos": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "series": {
+      "Não usa": [
+        22.4,
+        7.5,
+        2.4
+      ],
+      "Usa algum tipo de IA": [
+        77.6,
+        92.5,
+        97.6
+      ]
+    }
+  },
+  "q6_regiao": {
+    "labels": [
+      "Sudeste",
+      "Sul",
+      "Nordeste",
+      "Centro-oeste",
+      "Norte"
+    ],
+    "values": [
+      8476,
+      2532,
+      1504,
+      907,
+      195
+    ]
+  },
+  "q6_senioridade_regiao": {
+    "regioes": [
+      "Centro-oeste",
+      "Nordeste",
+      "Norte",
+      "Sudeste",
+      "Sul"
+    ],
+    "series": {
+      "Júnior": [
+        40,
+        69,
+        7,
+        312,
+        82
+      ],
+      "Pleno": [
+        53,
+        94,
+        10,
+        464,
+        135
+      ],
+      "Sênior": [
+        60,
+        86,
+        12,
+        526,
+        140
+      ]
+    }
+  }
+}
